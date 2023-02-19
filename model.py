@@ -7,23 +7,36 @@
 #       |--------- optimizer (gradient) <-----------------
 
 def data():
-    pass
+    print("data")
+
+
 def data_loader():
-    pass
+    print("data loader")
+
+
 def model(label, prediction):
-    pass
+    print("model")
+
+
 def loss_function(loss):
-    pass
+    print("loss function")
+
+
 def optimizer(gradient):
-    pass
+    print("optimizer")
+
 
 def main():
+    label = "label"
+    prediction = "prediction"
+    loss = "loss"
+    gradient = "gradient"
+
     data()
     data_loader()
     model(label, prediction)
     loss_function(loss)
     optimizer(gradient)
-
 
 
 if __name__ == "__main__":
